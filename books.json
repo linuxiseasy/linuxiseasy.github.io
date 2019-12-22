@@ -6,50 +6,50 @@
    "kind": "books#volume",
    "id": "-zrCDwAAQBAJ",
    "etag": "rm1B1W5ng10",
-   "selfLink": "https://www.googleapis.com/books/v1/volumes/-zrCDwAAQBAJ",
+   "selfLink": "https://drive.google.com/file/d/1D3uda_JbpSZQCDfDKdW8QIq49pN1wrRu/view?usp=sharing",
    "volumeInfo": {
-    "title": "JavaScript",
-    "subtitle": "Richtig gut programmieren lernen – Von der ersten Codezeile bis zum eigenen Projekt",
+    "title": "Linuxiseasy: System Administration",
+    "subtitle": "",
     "authors": [
-     "Marijn Haverbeke"
+     "Mohammadreza Rashidi"
     ],
-    "publisher": "dpunkt.verlag",
-    "publishedDate": "2019-12-10",
-    "description": "Lernen Sie JavaScript umfassender Schritt-für-Schritt-Einstieg in die Programmierung und in JavaScript direkt losprogrammieren mit viele Beispielen und Übungsprojekten ansteigender Schwierigkeitsgrad bis zu komplexeren Webanwendungen JavaScript ist das Herzstück fast jeder modernen Webanwendung, von Social Apps wie Twitter bis hin zu browserbasierten Spiele-Frameworks. Obwohl es JavaScript auch Anfängern einfach macht, zu programmieren, ist die Sprache trotzdem flexibel und mächtig genug, um mit ihr umfangreiche und komplexe Anwendungen erstellen zu können. Haverbeke zeigt Ihnen die Details und die Tiefen von JavaScript-Code. Umfangreiche Beispiele, Übungen und Projekte wie ein Browserspiel, eine einfache Programmiersprache und ein Malprogramm geben Ihnen praktisches Wissen zum Schreiben Ihrer eigenen Programme an die Hand. Zuerst lernen Sie die Grundstruktur von JavaScript kennen, Sie arbeiten mit Funktionen und Datenstrukturen. Dann erfahren Sie mehr über Fehlerbehandlung und -behebung, Modularität und asynchrone Programmierung bevor Sie mit der Programmierung für Webbrowser fortfahren. Organisieren Sie Ihren Code mit objektorientierten Methoden und Techniken der funktionalen Programmierung Skripten Sie für den Browser und erstellen Sie eine einfache Webanwendungen Nutzen Sie das DOM effektiv, um mit dem Browser zu interagieren Nutzen Sie Node.js, um Server und Programme zu erstellen. Die zweite Ausgabe von \"Die Kunst der JavaScript-Programmierung\" taucht tief in die Sprache JavaScript ein, um Ihnen zu zeigen, wie Sie schönen, effektiven Code schreiben können. Die Aktualisierungen umfassen brandneues Material zu Features wie Klassennotationen, Pfeilfunktionen, Iteratoren, Asynchronisationsfunktionen, Template Strings und Blockscope. Ist es nicht endlich an der Zeit, dass Sie die Sprache des Webs fließend beherrschen?",
+    "publisher": "Naghoos",
+    "publishedDate": "2019-11-10",
+    "description": "Introduction",
     "industryIdentifiers": [
      {
-      "type": "ISBN_13",
-      "identifier": "9783960889120"
+      "type": "",
+      "identifier": ""
      },
      {
-      "type": "ISBN_10",
-      "identifier": "3960889127"
+      "type": "",
+      "identifier": ""
      }
     ],
     "readingModes": {
      "text": true,
      "image": true
     },
-    "pageCount": 488,
+    "pageCount": 167,
     "printType": "BOOK",
     "categories": [
      "Computers"
     ],
     "maturityRating": "NOT_MATURE",
     "allowAnonLogging": false,
-    "contentVersion": "1.1.1.0.preview.3",
+    "contentVersion": "1.0",
     "panelizationSummary": {
      "containsEpubBubbles": false,
      "containsImageBubbles": false
     },
     "imageLinks": {
-     "smallThumbnail": "http://books.google.com/books/content?id=-zrCDwAAQBAJ&printsec=frontcover&img=1&zoom=5&edge=curl&source=gbs_api",
-     "thumbnail": "http://books.google.com/books/content?id=-zrCDwAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+     "smallThumbnail": "https://doc-14-6c-docs.googleusercontent.com/docs/securesc/m4qlraq38te723pp3u6nvpf7okqbclq9/2l5dn716n1t4esfi6eb9tbmihu5lep36/1577016000000/14021670951556468824/14021670951556468824/1IWk-zT8x4GY-HnhtWRLhhDjmyYr28vM0?e=view&authuser=0",
+     "thumbnail": "https://doc-14-6c-docs.googleusercontent.com/docs/securesc/m4qlraq38te723pp3u6nvpf7okqbclq9/2l5dn716n1t4esfi6eb9tbmihu5lep36/1577016000000/14021670951556468824/14021670951556468824/1IWk-zT8x4GY-HnhtWRLhhDjmyYr28vM0?e=view&authuser=0"
     },
     "language": "de",
-    "previewLink": "http://books.google.de/books?id=-zrCDwAAQBAJ&printsec=frontcover&dq=javascript&hl=&cd=1&source=gbs_api",
-    "infoLink": "https://play.google.com/store/books/details?id=-zrCDwAAQBAJ&source=gbs_api",
-    "canonicalVolumeLink": "https://play.google.com/store/books/details?id=-zrCDwAAQBAJ"
+    "previewLink": "https://drive.google.com/file/d/1D3uda_JbpSZQCDfDKdW8QIq49pN1wrRu/view?usp=sharing",
+    "infoLink": "https://drive.google.com/file/d/1D3uda_JbpSZQCDfDKdW8QIq49pN1wrRu/view?usp=sharing",
+    "canonicalVolumeLink": "https://drive.google.com/file/d/1D3uda_JbpSZQCDfDKdW8QIq49pN1wrRu/view?usp=sharing"
    },
    "saleInfo": {
     "country": "DE",
@@ -63,7 +63,7 @@
      "amount": 25.99,
      "currencyCode": "EUR"
     },
-    "buyLink": "https://play.google.com/store/books/details?id=-zrCDwAAQBAJ&rdid=book--zrCDwAAQBAJ&rdot=1&source=gbs_api",
+    "buyLink": "",
     "offers": [
      {
       "finskyOfferType": 1,
@@ -98,7 +98,7 @@
     "quoteSharingAllowed": false
    },
    "searchInfo": {
-    "textSnippet": "Lernen Sie JavaScript umfassender Schritt-für-Schritt-Einstieg in die Programmierung und in JavaScript direkt losprogrammieren mit viele Beispielen und Übungsprojekten ansteigender Schwierigkeitsgrad bis zu komplexeren Webanwendungen ..."
+    "textSnippet": ""
    }
   }
  ]
