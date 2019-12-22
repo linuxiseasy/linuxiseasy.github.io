@@ -219,7 +219,7 @@ MPG.bookList = (function() {
 
             document.addEventListener("DOMContentLoaded", function () {// after content loaded, do stuff
 
-                retrieveJSON('https://www.googleapis.com/books/v1/volumes?q=javascript&maxResults=20&orderBy=newest', function(data) {
+                retrieveJSON('books.json', function(data) {
 
                     // use retrieved data here
                     buildContent(data);
