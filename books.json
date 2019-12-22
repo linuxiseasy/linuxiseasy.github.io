@@ -98,7 +98,7 @@
     "quoteSharingAllowed": false
    },
    "searchInfo": {
-    "textSnippet": "<a href='https://drive.google.com/file/d/1D3uda_JbpSZQCDfDKdW8QIq49pN1wrRu/view?usp=sharing'>Preview</a>"
+    "textSnippet": "<a target='_blank' href='https://drive.google.com/file/d/1D3uda_JbpSZQCDfDKdW8QIq49pN1wrRu/view?usp=sharing'>Preview</a>"
    }
   }
  ]
