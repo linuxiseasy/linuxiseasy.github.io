@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Linux Command Part 1
+title: دستورات لینوکس - قسمت 1
 date: 2017-03-15  01-45-39
 tags:
   - linux
