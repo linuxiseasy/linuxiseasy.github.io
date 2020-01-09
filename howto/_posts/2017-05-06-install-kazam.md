@@ -1,17 +1,18 @@
 ---
 layout: post
 category: howto
-title: 'How to Install kazam'
-date: 2016-04-06 21:35
+title: چگونه kazam را نصب کنیم
+date: '2016-04-06 21:35'
+published: true
 ---
 
-## What is Kazam
+## kazam چیست
 
-kazam is a screenrecorder
+kazam یک بسته لینوکسی است که با آن می توان با آن صفحه کاری سیستم را ضبط کرد 
 
-## How to install kazam
+## چگونه آن را نصب کنیم
 
-
+دستورات زیر را به ترتیب در terminal وارد می کنیم
 
 {% highlight linux %}
 sudo apt-add-repository ppa:sylvain-pineau/kazam
