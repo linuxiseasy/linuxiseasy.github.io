@@ -1355,7 +1355,6 @@ body {
 }
 
 .post h1:before {
-    content: "#";
     color: #5d4d7a;
     font-size: 2.5rem
 }
