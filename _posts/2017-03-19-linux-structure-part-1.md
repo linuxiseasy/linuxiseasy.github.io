@@ -28,10 +28,10 @@ published: true
 
 
 <center>♥♥♥♥♥♥♥♥♥♥
-<br><b>Please Gaming and give point for end of document your uderstand top linux command</b><br>
+<br><b>میتوانید بازی زیر را انجام دهید و در صورت پیروزی دستور لینوکسی را یادبگیرید</b><br>
 </center>
 <hr>
-<span>Draw back an arrow and launch it(center give point till 3 success launche)!</span>
+<p><span>حداکثر 3 بار مجاز به پرتاب تیر هستید</span></p>
 
 <!---
 {% highlight javascript %}
