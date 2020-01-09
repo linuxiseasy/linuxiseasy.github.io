@@ -1093,6 +1093,7 @@ body {
 .header-site .recent a h2 {
     text-align: right !important;
     margin: 0;
+    direction: rtl;
     font-weight: 310;
     font-size: 1.063rem;
     border-bottom: 1px solid #8774a9;
