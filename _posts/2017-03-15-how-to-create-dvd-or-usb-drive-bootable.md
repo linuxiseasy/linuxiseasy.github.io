@@ -44,7 +44,7 @@ published: true
 ## چگونه لینوکس را روی virtualbox اجرا کنیم
 
 <center>
-	<b>Please Watch video</b>
+	<b></b>
 	<br>
 	<div class="video">
 		<div id="14920181237054999"><script type="text/JavaScript" src="https://www.aparat.com/embed/QPf05?data[rnddiv]=14920181237054999&data[responsive]=yes"></script></div>
