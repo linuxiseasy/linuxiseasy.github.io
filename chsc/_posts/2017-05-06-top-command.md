@@ -1,51 +1,49 @@
 ---
 layout: post
 category: chsc
-title: 'top command cheatsheet'
-date: 2016-04-06 21:35
+title: برگه رمز دستور top
+date: '2016-04-06 21:35'
+published: true
 ---
+## مقدمه
 
-## top (the UNIX process inspector) cheat sheet
+h راهنما
 
+q خروج از برنامه.
 
-This is a list of the most helpful keyboard commands I use within top.
+## پیمایش
 
+کلید های Up و Down برای حرکت بین فرآیند ها و کلید های PageUp و PageDown برای حرکت بین صفحه ها.
 
-## The basics
+کلید های Left و Right برای حرکت به صورت افقی بین فرآیند ها.
 
-h shows help on interactive commands. Also see the top manual page
-
-q to quit the program.
-
-## Navigating
-
-Up and Down to scroll through processes one by one, or PageUp and PageDown for paged navigation.
-
-Left and Right to navigate horizontally through fields (in case you're displaying a bunch).
-
-Shift+c will show an index of where you are in the process list (eg 30/300 when your cursor is on process 30 and there are 300).
+Shift+c در لیست فرآیند های index را نمایش می دهد.
 
 ## Sorting
 
-Shift+p sort processes by CPU usage
+Shift+p مرتب سازی بر اساس مصرف cpu
 
-Shift+m sort processes by memory usage
+Shift+m مرتب سازی بر اساس memory
 
-Shift+r reverse sort order
+Shift+r مرتب سازی برعکس
 
-Sort on any field: Press f to bring up the Field Management menu. Select the field to sort on, press s and then Escape.
+برای مرتب سازی بر اساس هر فیلد ابتدا کلید f را فشار می دهیم.
+
+سپس از منو باز شده field to sort on را انتخاب می کنیم
+
+سپس کلید s را برای خروج فشار می دهیم.
 
 ## Searching
 
-Shift+l search for a string and highlights all occurences
+Shift+l جست و جو
 
-o add a filter to limit which processes are displayed. A filter takes the format {field name}{comparator}{value}. For example, to see only processes owned by my user, I would add a filter USER=eric.
+o ایحاد فیلتر مانند {field name}{comparator}{value}. برای مثال, نمایش فرآیند های ایجاد شده تویط کاربر USER=eric.
 
-Ctrl+o view active filters.
+Ctrl+o نمایش فیلتر فعلی.
 
-= clear all filters.
+= پاک نمودن تمام فیلتر ها.
 
-## Other stuff
+## دیگر موارد
 
 m switches memory views between the list of metrics and graph view.
 
@@ -57,6 +55,6 @@ Shift+w saves the settings you've configured while running top to a file (.toprc
 
 Shift+e toggle the scale of memory metrics (between kilobytes and megabytes etc.) in the system memory summary, and e toggles the scale of memory metrics in the process list. The default is kilobytes, I find megabytes a useful level.
 
-### Resource
+### منبع
 
 <a href="https://gist.github.com/ericandrewlewis/4983670c508b2f6b181703df43438c37">gist</a>
