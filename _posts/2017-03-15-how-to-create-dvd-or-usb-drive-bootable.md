@@ -1,6 +1,6 @@
 ---
 layout: post
-title: How to create usb drive or dvd bootable
+title: روش های نصب لینوکس
 date: 2017-03-15  01-04-01
 tags:
   - linux
