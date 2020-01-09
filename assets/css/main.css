@@ -3458,3 +3458,9 @@ code{
 .new{
     color: #ff9d00;
 }
+
+
+
+.header-site .site-title{
+letter-spacing: 1px !important;	
+}
