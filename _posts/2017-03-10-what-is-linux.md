@@ -1,6 +1,6 @@
 ---
 layout: post
-title: What is Linux
+title: لینوکس چیست
 date: 2017-03-15  01-08-01
 tags:
   - linux
