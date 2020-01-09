@@ -711,7 +711,8 @@ aside #topmenu ul li span {
 }
 
 aside nav ul {
-    float: left;
+    float: right;
+    direction: rtl;
     columns: 2;
     white-space: nowrap;
     margin-right: 80px;
