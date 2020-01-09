@@ -1,38 +1,38 @@
 ---
 layout: post
 category: Linux
-title: 'How to create build-your-own-linux-distro'
-date: 2016-04-06 21:35
+title: How to create build-your-own-linux-distro
+date: '2016-04-06 21:35'
+published: true
 ---
 
-## build-your-own-linux-distro
+## ساخت توزیع لینوکس شخصی
 
-2 method:
+2 روش برای ساخت توزیع شخصی وجود دارد:
 
 → LFS(Linux From Scratch)<br>
 
-Linux From Scratch is a type of a Linux installation and the name of a book written by Gerard Beekmans, and currently mainly maintained by Bruce Dubbs. The book gives readers instructions on how to build a Linux system from source.<a target="_blank" href="https://en.wikipedia.org/wiki/Linux_From_Scratch"> Wikipedia</a>
+Linux From Scratch نوع روش نصب لینوکس است و کتابی هم با همین نام توسط Gerard Beekmans نوشته شده است, که در حال حاضر توسط Bruce Dubbs کنترل می شود. این کتاب به خواننده آن آموزش می دهد چطور یک لینوکس را از سورس کامپایل و نصب کند.<a target="_blank" href="https://en.wikipedia.org/wiki/Linux_From_Scratch"> اطلاعات بیشتر در ویکیپدیا</a>
 
-Please goto this <a target="_blank" href="http://linuxfromscratch.org/">website</a> and step by step learning
-but (you should perception <b>c</b> and <b>assembly</b> programming and <b>computer structure</b>)
+لطفا به وبسایت lfs مراجعه کنید <a target="_blank" href="http://linuxfromscratch.org/">وبسایت</a> لازم است پیش نیاز های اسمبلی و درک از ساختار و معماری رایانه را داشته باشید
 
 → Remastering<br>
-<strong>Suse Studio</strong><br>
-	<a target="_blank" href="https://www.howtoforge.com/tutorial/how-to-build-a-linux-distribution-with-suse-studio/">howtoforge</a><br>
-<strong>LiveCdCustomization</strong><br>
-	<a target="_blank" href="https://help.ubuntu.com/community/LiveCDCustomization">help.ubuntu.com</a><br>
-or<br>
-	<a target="_blank" href="https://www.howtogeek.com/109736/how-to-create-a-custom-ubuntu-live-cd-or-usb/">howtogeek</a><br>
-<strong>Cubic</strong>(Linuxsh Build with this)<br>
-	<a target="_blank" href="https://launchpad.net/cubic">cubic</a><br>
+<strong>ابزار Suse Studio</strong><br>
+	<a target="_blank" href="https://www.howtoforge.com/tutorial/how-to-build-a-linux-distribution-with-suse-studio/">لینک آموزش</a><br>
+<strong>ابزار LiveCdCustomization</strong><br>
+	<a target="_blank" href="https://help.ubuntu.com/community/LiveCDCustomization">لینک آموزش</a><br>
+یا<br>
+	<a target="_blank" href="https://www.howtogeek.com/109736/how-to-create-a-custom-ubuntu-live-cd-or-usb/">لینک آموزش</a><br>
+<strong>ابزار Cubic</strong>(Linuxsh Build with this)<br>
+	<a target="_blank" href="https://launchpad.net/cubic">لینک آموزش</a><br>
 
 
 {% include content_option.html %}
 
 <center>♥♥♥♥♥♥♥♥♥♥
-<br><b>Please Gaming and give point for end of document your uderstand top linux command</b><br>
+<br><b>میتوانید بازی زیر را انجام دهید و در صورت پیروزی دستور لینوکسی را یادبگیرید</b><br>
 </center>
 <hr>
-<span>Draw back an arrow and launch it(center give point till 3 success launche)!</span>
+<span>حداکثر 3 بار مجاز به پرتاب تیر هستید</span>
 
 {% include game_include.html %}
