@@ -1,6 +1,6 @@
 ---
 layout: post
-title: How to install a linux distro
+title: چگونه یک توزیع لینوکس را نصب کنیم
 date: 2017-03-15  01-03-01
 tags:
   - linux
