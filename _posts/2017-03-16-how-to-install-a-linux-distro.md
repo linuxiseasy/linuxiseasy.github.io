@@ -1,15 +1,14 @@
 ---
 layout: post
-title:  "How to install a linux distro"
-image: ''
-date:   2017-03-15  01-03-01
+title: How to install a linux distro
+date: 2017-03-15  01-03-01
 tags:
-- linux
-- How to 
-- How to install a linux distibute
-- what is linux
-description: ''
+  - linux
+  - How to
+  - How to install a linux distibute
+  - what is linux
 category: Linux
+published: true
 ---
 
 <center><p>The number of Linux distributions is declining. In 2011, the Distrowatch database of active Linux distributions peaked at <b>323</b></p></center>
@@ -178,48 +177,11 @@ Next a new pop-up window will ask you if you agree with committing changes to di
 
 14.Next you should select your keyboard layout and click on Continue button.
 
-<figure class="foto-legenda">
-	<img src="{{ site.url }}/assets/img/how-to-install-a-linux-distro/Select-Keyboard-Layout.png" alt="">
-</figure>
 
-
-15.Enter a username and a password for the first account with root privileges, choose your system hostname by filling the computer’s name field with a descriptive value and hit Continue to finalize the installation process.
-
-<figure class="foto-legenda">
-	<img src="{{ site.url }}/assets/img/how-to-install-a-linux-distro/Create-User-Account.png" alt="">
-</figure>
-
-
-16.The installation process will take a while and when it reaches the final step it will ask you to hit on Restart Now button to complete the installation.
-
-<figure class="foto-legenda">
-	<img src="{{ site.url }}/assets/img/how-to-install-a-linux-distro/Linux-Mint-18-Installation-Completed.png" alt="">
-</figure>
-
-
-17.After reboot, the system will first boot-up in Grub, with Linux Mint as the first boot option which will be automatically started after 10 seconds. Form here you can further instruct the computer to boot in Windows or Linux.
-
-On computers with newer UEFI firmware the Grub boot loader won’t be displayed by default and the machine will automatically boot-up in Windows.
-
-In order to boot into Linux you must press the special function boot key after restart and from there to further select what OS you wish to start.
-
-In order to change the default boot order enter UEFI settings, select your default OS and save the changes. Review the vendor’s manual in order to detect the special function keys used for boot or for entering UEFI settings.
-
-18.After the system finishes loading, log in to Linux Mint 18 by using the credentials created during the installation process. Fire-up a Terminal window and start the update process from command line by running the following commands:
-
-{% highlight javascript %}
-
-	$ sudo apt-get update
-	$ sudo apt-get upgrade
-
-{% endhighlight %}
-
-That’s it! You have successfully installed the latest version of Linux Mint 18 on your device. You will find Linux Mint platform to be very robust, fast, flexible, enjoyable, easy to use, with a ton of software required for a normal user already installed and very stable.
-
-### Finaly Please watch video for better install linux 
+### چگونه لینوکس را نصب کنیم 
 
 <center>
-	<b>Please Watch video</b>
+	<b></b>
 	<br>
 	<div class="video">
 		<div id="14920181636426942"><script type="text/JavaScript" src="https://www.aparat.com/embed/E8L43?data[rnddiv]=14920181636426942&data[responsive]=yes"></script></div>
