@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Linux Structure Part 2
+title: ساختار لینوکس - قسمت دو
 date: 2017-03-15  01-45-39
 tags:
   - linux
