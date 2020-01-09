@@ -1,21 +1,19 @@
 ---
 layout: post
-title:  "All type linux"
-image: ''
-date:   2017-03-15  01-05-01
+title: All type linux
+date: 2017-03-15  01-05-01
 tags:
-- how to
-- learn
-- linux
-description: ''
+  - how to
+  - learn
+  - linux
 category: Linux
+published: true
 ---
 
 <img src="{{ site.url }}/assets/img/all-type-linux/choose-linux-package-670x335.jpg">
 
 
-<p>linux distribute very big branch</p>
-Please watch image 
+<p>تصویری از کل توزیع های لینوکس</p>
 
 <img src="{{ site.url }}/assets/img/all-type-linux/Linux_Distribution_Timeline.svg">
 
@@ -23,30 +21,30 @@ Please watch image
 <b> !!!! </b>
 <!-- warning -->
 
-# All type linux by package manager
+# لینوکس های مختلف بر اساس سیستم مدیریت بسته آن ها
 
 ## Deb
 
-Package manager for <i>debian</i> base distribute linux
+سیستم مدیریت بسته لینوکس های بر پایه <i>debian</i> 
 
 ## Rpm
 
-Package manager for <i>redhat</i> base distribute linux
+سیستم مدیریت بسته لینوکس های بر پایه <i>redhat</i>
 
-<p style="font-size: 13px;color: green;">⊕ fedora use <i>dnf</i> additional rpm package manager</p>
+<p style="font-size: 13px;color: green;">⊕ همچنین در fedora شامل <i>dnf</i> برای بسته های rpm</p>
 
 ## Pacman
 
-Package manager for <i>arch</i> base distribute linux
+سیستم مدیریت بسته لینوکس های بر پایه <i>arch</i>
 
 ## Portage
 
-Package manager for <i>Gentoo</i> base distribute linux
+سیستم مدیریت بسته لینوکس های بر پایه <i>Gentoo</i>
 
 
 ## pkgtool
 
-Package manager for <i>slackware</i> base distribute linux
+سیستم مدیریت بسته لینوکس های بر پایه <i>slackware</i>
 
 
 {% include content_option.html %}
