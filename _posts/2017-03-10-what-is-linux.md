@@ -1,28 +1,29 @@
 ---
 layout: post
-title:  "What is Linux"
-image: ''
-date:  2017-03-15  01-08-01
+title: What is Linux
+date: 2017-03-15  01-08-01
 tags:
-- linux
-- what is linux
-- unix
-- minix
-- linus torvalds
-- richard stallman
-description: ''
+  - linux
+  - what is linux
+  - unix
+  - minix
+  - linus torvalds
+  - richard stallman
 category: Linux
+published: true
 ---
 
-<center><p>Tux is a penguin character and the official mascot of the Linux kernel</p></center>
+<center><p>Tux شخصیت پنگوئن کرنل لینوکس است</p></center>
 <img src="{{ site.url }}/assets/img/what-is-linux/1.gif" alt="">
 
-## What is Linux? 
+## لینوکس چیست? 
 
-Just like Windows XP, Windows 7, Windows 8, and Mac OS X, Linux is an operating system. An operating system is software that manages all of the hardware resources associated with your desktop or laptop. To put it simply – the operating system manages the communication between your software and your hardware. Without the operating system (often referred to as the “OS”), the software wouldn’t function.
+سیستم عامل نرم افزاری است که ارتباط بین سخت افزار و کاربر را فراهم می کند.
+لینوکس هم مانند سیستم عامل های ویندوز و مک برای گروه های مختلف استفاده می شود با این تفاوت که کاربر می تواند بر روی تمامی اجزا آن کنترل داشته باشد
+این کنترل باعث افزایش اسرعت و دسترسی و امنیت شود.
 
 <figure class="foto-legenda">
-	<figcaption> <p>From smartphones to cars, supercomputers and home appliances, the Linux operating system is everywhere.</p>
+	<figcaption> <p> لینوکس در ابررایانه های و رایانه های شخصی و موبایل ها مورد استفاده قرار میگیرد </p>
 	</figcaption>
 	<img src="{{ site.url }}/assets/img/what-is-linux/What-is-Linux-3.jpg" alt="">
 
