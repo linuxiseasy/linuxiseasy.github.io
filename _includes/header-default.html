@@ -76,59 +76,6 @@
         </div>
         <br>
 
-  <div class="large-3 columns">
-
-        <ul class="recent">
-            <p>اصول و پایه</p>
-            {% assign postss = (site.categories["Linux"]  | sort: 'date') | reverse %}
-             {% for post in postss %}
-              
-              
-
-                <li>
-                    <a title="آخرین مطالب" href="{{ post.url | prepend: site.baseurl }}">
-                        <h2 class="post-title" itemprop="name">{{ post.title }}</h2>
-                    </a>
-                </li>
-              
-              {% endfor %}
-        </ul>
-    </div>
-   
-<div class="large-3 columns">
- <ul class="recent">
-            <p>برگه رمز ها و اسکریپت ها</p>
-                {% assign postss = (site.posts | sort: 'date') | reverse %}
-                 {% for post in postss %}
-                  {% if post.categories contains 'chsc' %}
-                    <li>
-                        <a title="Will take a my recent post" href="{{ post.url | prepend: site.baseurl }}">
-                            <h2 class="post-title" itemprop="name">{{ post.title }}</h2>
-                        </a>
-                    </li>
-                  {% endif %}
-                  {% endfor %}
-                  </ul>
-</div>
-<div class="large-3 columns">
- <ul class="recent">
-            <p>چگونه</p>
-                {% assign postss = (site.posts | sort: 'date') | reverse %}
-                 {% for post in postss %}
-                  {% if post.categories contains 'howto' %}
-                    <li>
-                        <a title="Will take a my recent post" href="{{ post.url | prepend: site.baseurl }}">
-                            <h2 class="post-title" itemprop="name">{{ post.title }}</h2>
-                        </a>
-                    </li>
-                  {% endif %}
-                  {% endfor %}
-</ul>
-            
-</div>
-
-
-
  <div class="large-3 columns">
      <ul class="recent">
             <p>بررسی ها</p>
@@ -166,7 +113,58 @@
                 </li>
         </ul>
 </div>
-    
+ <div class="large-3 columns">
+
+        <ul class="recent">
+            <p>اصول و پایه</p>
+            {% assign postss = (site.categories["Linux"]  | sort: 'date') | reverse %}
+             {% for post in postss %}
+              
+              
+
+                <li>
+                    <a title="آخرین مطالب" href="{{ post.url | prepend: site.baseurl }}">
+                        <h2 class="post-title" itemprop="name">{{ post.title }}</h2>
+                    </a>
+                </li>
+              
+              {% endfor %}
+        </ul>
+    </div>
+     
+     <div class="large-3 columns">
+ <ul class="recent">
+            <p>برگه رمز ها و اسکریپت ها</p>
+                {% assign postss = (site.posts | sort: 'date') | reverse %}
+                 {% for post in postss %}
+                  {% if post.categories contains 'chsc' %}
+                    <li>
+                        <a title="Will take a my recent post" href="{{ post.url | prepend: site.baseurl }}">
+                            <h2 class="post-title" itemprop="name">{{ post.title }}</h2>
+                        </a>
+                    </li>
+                  {% endif %}
+                  {% endfor %}
+                  </ul>
+</div>
+
+<div class="large-3 columns">
+ <ul class="recent">
+            <p>چگونه</p>
+                {% assign postss = (site.posts | sort: 'date') | reverse %}
+                 {% for post in postss %}
+                  {% if post.categories contains 'howto' %}
+                    <li>
+                        <a title="Will take a my recent post" href="{{ post.url | prepend: site.baseurl }}">
+                            <h2 class="post-title" itemprop="name">{{ post.title }}</h2>
+                        </a>
+                    </li>
+                  {% endif %}
+                  {% endfor %}
+</ul>
+            
+</div>     
+     
 </div>
 
 </div>
