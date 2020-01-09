@@ -1,6 +1,6 @@
 ---
 layout: post
-title: All type linux
+title: توزیع های لینوکس
 date: 2017-03-15  01-05-01
 tags:
   - how to
