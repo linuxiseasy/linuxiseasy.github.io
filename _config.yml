@@ -1,6 +1,6 @@
 # Site settings
-title: linuxiseasy - Linux docs
-description: "A document about linux works and create customize linux ..."
+title: لینوکس آسان است
+description: "آموزش هایی راجب لینوکس و متن باز"
 baseurl: "" # for test: remove string '/space-jekyll-templa' to ''
 url: "" # for test: remove string 'http://victorvoid.github.io' to '' but in production: 'https://yourusername.githu.io'
 #social url
