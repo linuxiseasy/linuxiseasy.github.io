@@ -1,6 +1,6 @@
 ---
 layout: post
-title: How to learn work with linux
+title: چگونه لینوکس را یاد بگیریم
 date: 2017-03-15  01-07-01
 tags:
   - how to
