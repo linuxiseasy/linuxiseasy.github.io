@@ -1,12 +1,12 @@
 ---
 layout: post
 category: Linux
-title: How to create build-your-own-linux-distro
+title: چگونه یک توزیع لینوکس ایجاد کنیم
 date: '2016-04-06 21:35'
 published: true
 ---
 
-## ساخت توزیع لینوکس شخصی
+## روش های ساخت توزیع لینوکس
 
 2 روش برای ساخت توزیع شخصی وجود دارد:
 
