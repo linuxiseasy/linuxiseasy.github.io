@@ -1750,6 +1750,7 @@ pre code {
     *zoom: 1;
     width: auto;
     max-width: 50rem;
+    text-align: left;
     float: none;
     display: block;
     margin-right: auto;
