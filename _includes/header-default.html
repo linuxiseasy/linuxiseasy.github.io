@@ -79,14 +79,14 @@
   <div class="large-3 columns">
 
         <ul class="recent">
-            <p>Recent Beginners <font class="new">ᴺᴱᵂ</font></p>
+            <p>اصول و پایه</p>
             {% assign postss = (site.categories["Linux"]  | sort: 'date') | reverse %}
              {% for post in postss %}
               
               
 
                 <li>
-                    <a title="Will take a my recent post" href="{{ post.url | prepend: site.baseurl }}">
+                    <a title="آخرین مطالب" href="{{ post.url | prepend: site.baseurl }}">
                         <h2 class="post-title" itemprop="name">{{ post.title }}</h2>
                     </a>
                 </li>
@@ -97,7 +97,7 @@
    
 <div class="large-3 columns">
  <ul class="recent">
-            <p>Recent Cheatsheet and Script <font class="new">ᴺᴱᵂ</font></p>
+            <p>برگه رمز ها و اسکریپت ها</p>
                 {% assign postss = (site.posts | sort: 'date') | reverse %}
                  {% for post in postss %}
                   {% if post.categories contains 'chsc' %}
@@ -112,7 +112,7 @@
 </div>
 <div class="large-3 columns">
  <ul class="recent">
-            <p>Recent How to <font class="new">ᴺᴱᵂ</font></p>
+            <p>چگونه</p>
                 {% assign postss = (site.posts | sort: 'date') | reverse %}
                  {% for post in postss %}
                   {% if post.categories contains 'howto' %}
@@ -131,7 +131,7 @@
 
  <div class="large-3 columns">
      <ul class="recent">
-            <p>Recent Review <font class="new">ᴺᴱᵂ</font></p>
+            <p>بررسی ها</p>
                 {% assign postss = (site.posts | sort: 'date') | reverse %}
                  {% for post in postss %}
                   {% if post.categories contains 'dist_rev' %}
@@ -146,7 +146,7 @@
 
  <div class="large-12">
         <ul class="recent">
-            <p>Recent projects <font class="new">ᴺᴱᵂ</font></p>
+            <p>پروژه ها</p>
              {% for project in site.projects limit:5%}
                 <li>
                     <a title="Show my recent project" href="{{ project.url}}">
@@ -158,10 +158,10 @@
         </div>
       <div class="large-12">
         <ul class="recent">
-            <p>Books <font class="new">ᴺᴱᵂ</font></p>
+            <p>کتاب ها</p>
                 <li>
-                    <a title="Linuxiseasy: System Administration" href="/books.html">
-                        <h2 class="post-title" itemprop="name">Linuxiseasy: System Administration</h2>
+                    <a title="لینوکس آسان است: مدیریت سیستم" href="/books.html">
+                        <h2 class="post-title" itemprop="name">لینوکس آسان است: مدیریت سیستم</h2>
                     </a>
                 </li>
         </ul>
