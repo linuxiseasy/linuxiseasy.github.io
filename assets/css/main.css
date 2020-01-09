@@ -1079,7 +1079,7 @@ body {
 }
 
 .header-site .recent p {
-    text-align: center;
+    text-align: center !important;
     background: linear-gradient(to right, rgba(255,0,0,0), rgb(52, 10, 84));
     font-weight: bold;
     color: #fff
@@ -1091,7 +1091,7 @@ body {
 
 
 .header-site .recent a h2 {
-    text-align: right;
+    text-align: right !important;
     margin: 0;
     font-weight: 310;
     font-size: 1.063rem;
