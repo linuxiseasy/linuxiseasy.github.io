@@ -1,6 +1,6 @@
 ---
 layout: post
-title: How to give linux certificate
+title: مدرک های لینوکس
 date: 2017-03-15  01-06-01
 tags:
   - how to
