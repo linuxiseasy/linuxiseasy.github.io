@@ -1372,9 +1372,17 @@ body {
     text-align: center
 }
 
+.post-content p, .post-content li{
+	font-family: Vazir !important;
+}
+.post-content p, .post-content h1, .post-content h2, .post-content h3, .post-content h4, .post-content ul, .post-content ol, .post-content .tags, .post-content iframe{
+        font-family: Vazir !important;
+}
+
 .post-content {
     padding: 1rem 0;
     background: white;
+    direction: rtl;
 }
 
 .post-content img {
