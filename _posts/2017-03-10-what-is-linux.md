@@ -29,56 +29,34 @@ published: true
 
 </figure>
 
-The OS is comprised of a number of pieces: 
+لینوکس از بخش های زیر تشکیل شده است 
 
-<p style="font-size: 15px;">→ The Bootloader: The software that manages the boot process of your computer. For most users, this will simply be a splash screen that pops up and eventually goes away to boot into the operating system.
+<p style="font-size: 15px;">→ The Bootloader: بخشی که فرآیند بوت را کنترل و سیستم عامل بارگذاری می کند
 </p>
-<p style="font-size: 15px;">→ The kernel: This is the one piece of the whole that is actually called “Linux”. The kernel is the core of the system and manages the CPU, memory, and peripheral devices. The kernel is the “lowest” level of the OS.
+<p style="font-size: 15px;">→ The kernel: بخش اصلی سیستم عامل یا همان کرنل یا هسته سیستم وظیفه کنترل بخش های مختلف سخت افزار ها و ارتباط با کاربر را بر عهده دارد
 </p>
-<p style="font-size: 15px;">→Daemons: These are background services (printing, sound, scheduling, etc) that either start up during boot, or after you log into the desktop.
+<p style="font-size: 15px;">→Daemons: سرویس های مختلفی که بعد از ورود کاربر راه اندازی و اجرا می شود مانند سرویس پرینتر و .. را گویند.
 </p>
-<p style="font-size: 15px;">→ The Shell: You’ve probably heard mention of the Linux command line. This is the shell – a command process that allows you to control the computer via commands typed into a text interface. This is what, at one time, scared people away from Linux the most (assuming they had to learn a seemingly archaic command line structure to make Linux work). This is no longer the case. With modern desktop Linux, there is no need to ever touch the command line.
+<p style="font-size: 15px;">→ The Shell: بخشی که با آن می توان تقریبا هر کاری انجام داد و با بخش های مختلف سیستم عامل ارتباط برقرار کرد این کار به واسط محیط شل سیستم عامل و دستورات آن انجام می شود .
 
-Graphical Server: This is the sub-system that displays the graphics on your monitor. It is commonly referred to as the X server or just “X”.
+Graphical Server: بخش گرافیکی لینوکس که با آن میتوان به لینوکس را گرافیکی اجرا و با آن تعامل کرد X نامیده می شود.
 </p>
-<p style="font-size: 15px;">→ Desktop Environment: This is the piece of the puzzle that the users actually interact with. There are many desktop environments to choose from (Unity, GNOME, Cinnamon, Enlightenment, KDE, XFCE, etc). Each desktop environment includes built-in applications (such as file managers, configuration tools, web browsers, games, etc).
+<p style="font-size: 15px;">→ Desktop Environment: برای کار X نرم افزار های مختلفی تحت عنوان Desktop Enviroment ها وجود دارند که در خود نرم افزار های گرافیکی زیادی دارند از معروف ترین Desktop Enviroment های می توان به xfce و kde اشاره کرد.
 </p>
-<p style="font-size: 15px;">→ Applications: Desktop environments do not offer the full array of apps. Just like Windows and Mac, Linux offers thousands upon thousands of high-quality software titles that can be easily found and installed. Most modern Linux distributions (more on this in a moment) include App Store-like tools that centralize and simplify application installation. For example: Ubuntu Linux has the Ubuntu Software Center (Figure 1) which allows you to quickly search among the thousands of apps and install them from one centralized location. 
+<p style="font-size: 15px;">→ Applications: Desktop environment ها معمولا تمام برنامه ها را ندارند ما به واسطه سیستم مدیریت بسته در لینوکس می توانیم نرم افرار های مختلفی را نصب و حذف و یا بروز رسانی کنیم. 
 </p>
 
 <img src="{{ site.url }}/assets/img/what-is-linux/vs.jpg" alt="">
 
-## Why use Linux?
-
-This is the one question that most people ask. Why bother learning a completely different computing environment, when the operating system that ships with most desktops, laptops, and servers works just fine? To answer that question, I would pose another question. Does that operating system you’re currently using really work “just fine”? Or are you constantly battling viruses, malware, slow downs, crashes, costly repairs, and licensing fees?
-
-That’s right, zero cost of entry...as in free. You can install Linux on as many computers as you like without paying a cent for software or server licensing (including costly Microsoft Client Access License – CALs).
-
-
-Be it the desktop or a server, if zero cost isn’t enough to win you over – what about having an operating system that will work, trouble free, for as long as you use it? I’ve personally used Linux for nearly twenty years (as a desktop and server platform) and have not once had an issue with malware, viruses, or random computer slow-downs. It’s that stable. And server reboots? Only if the kernel is updated. It is not out of the ordinary for a Linux server to go years without being rebooted. That’s stability and dependability.
-
-Linux is also distributed under an open source license. Open source follows the following key philosophies:
-
-→ The freedom to run the program, for any purpose.
-
-→ The freedom to study how the program works, and change it to make it do what  you wish.
-
-→ The freedom to redistribute copies so you can help your neighbor.
-
-→ The freedom to distribute copies of your modified versions to others.
-
-The above are crucial to understanding the community that comes together to create the Linux platform. It is, without a doubt, an operating system that is “by the people, for the people”. These philosophies are also one of the main reasons a large percentage of people use Linux. It’s about freedom and freedom of choice.
-
 
 <img src="{{ site.url }}/assets/img/what-is-linux/distribute.jpg" alt="">
 
+### توزیع چیست?"!
 
-### What is a “distribution?"!
+لینوکس را می توان برای کاربرد های مختلف شخصی و بهینه و بسته و نرم افزار هایی را به صورت پیش فرض در آن نصب نمود.
+توزیع های مختلف توسط شرکت های مختلف آماده و به صورت رایگان و یا در نسخه های تجاری در اختیار کاربران قرار میگیرد
 
-Linux has a number of different versions to suit nearly any type of user. From new users to hard-core users, you’ll find a “flavor” of Linux to match your needs. These versions are called distributions (or, in the short form, “distros.”) Nearly every distribution of Linux can be downloaded for free, burned onto disk (or USB thumb drive), and installed (on as many machines as you like).
-The freedom to distribute copies of your modified versions to others.
-
-The most popular Linux distributions are:
+برخی از توزیع های متداول عبارتنند از:
 
 ⇒ Ubuntu Linux
 
@@ -94,11 +72,11 @@ The most popular Linux distributions are:
 
 ⇒ openSUSE.
 
-Each distribution has a different take on the desktop. Some opt for <b>very modern user interfaces</b> (such as Ubuntu’s Unity, above, and Deepin’s Deepin Desktop), whereas others stick with a more traditional desktop environment (openSUSE uses KDE). For an easy guide to Linux desktops check out <a target="_blank" href="https://www.linux.com/learn/tutorials/783109-how-to-choose-the-best-linux-desktop-for-you">How to Find the Best Linux Desktop for You</a>. 
+هر کدام از توزیع های برای کارهایی مناسب و نقاط قوت و ضعفی دارند برای استفاده از لینوکس در رایانه های شخصی می توان با مراجعه به لینک روربرور انتخاب مناسبی داشت <a target="_blank" href="https://www.linux.com/learn/tutorials/783109-how-to-choose-the-best-linux-desktop-for-you">چگونه توزیع مناسب رایانه شخصی را انتخاب کنم</a>. 
 
-You can check out the top 100 distributions on the Distrowatch site.
+می توان با مراجعه به وبسایت Distrowatch 100 توزیع برتر حال حاضر را مشاهده نمود.
 
-And don’t think the <b>server</b> has been left behind. For this arena, you can turn to:
+برخی از توزیع های مناسب سرور عبارتنند از:
 
 ⇒ Red Hat Enterprise Linux
 
@@ -109,19 +87,19 @@ And don’t think the <b>server</b> has been left behind. For this arena, you ca
 ⇒ SUSE Enterprise Linux.
 
 
-## Which distribution is right for you?
+## کدام توزیع برای من مناسب است?
 
-<a target="_blank" href="http://www.linux.org/threads/which-distro-is-right-for-me.4834/">Please Goto linux.org</a><br>
-<a target="_blank" href="http://lifehacker.com/5889950/how-to-find-the-perfect-linux-distribution-for-you">And Please Goto lifehacker.com finally select linux distro</a>
+<a target="_blank" href="http://www.linux.org/threads/which-distro-is-right-for-me.4834/">لطفا با مراجعه به linux.org توزیع مناسب خود را انتخاب کنید</a><br>
+<a target="_blank" href="http://lifehacker.com/5889950/how-to-find-the-perfect-linux-distribution-for-you">همچنین با مراجعه به lifehacker.com می توانید توزیع مناسب خود را انتخاب کنید</a>
 
 {% include content_option.html %}
 
 
 <center>♥♥♥♥♥♥♥♥♥♥
-<br><b>Please Gaming and give point for end of document your uderstand top linux command</b><br>
+<br><b>میتوانید بازی زیر را انجام دهید و در صورت پیروزی دستور لینوکسی را یادبگیرید</b><br>
 </center>
 <hr>
-<span>Draw back an arrow and launch it(center give point till 3 success launche)!</span>
+<p><span>حداکثر 3 بار مجاز به پرتاب تیر هستید</span></p>
 
 <!---
 {% highlight javascript %}
